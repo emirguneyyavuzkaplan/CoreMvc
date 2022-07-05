@@ -1,6 +1,6 @@
 ﻿namespace Core6Mvc.Models.DTO.Employees
 {
-    public class EmployeeUpdate
+    public class EmployeeUpdateDto
     {
         public int EmployeeId { get; set; }
         public string LastName { get; set; } = null!;
